@@ -51,6 +51,8 @@ namespace Pe2.Api
                 app.UseCors("ClientPermission");
             }
 
+            app.UseSwagger();
+            app.UseSwaggerUI();
             app.UseCors("ClientPermission");
             app.UseHttpsRedirection();
 
