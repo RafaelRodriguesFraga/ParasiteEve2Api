@@ -12,9 +12,7 @@ namespace Pe2Api.Domain.Entities.Base
         {
             Id = Guid.NewGuid();
             CreatedAt = DateTime.Now;
-        }
-        
-       [BsonGuidRepresentation(GuidRepresentation.Standard)]
+        }        
         public Guid Id  {get;set;}
         public DateTime CreatedAt {get;set;}
 

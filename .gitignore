@@ -27,3 +27,9 @@
 /Pe2Api.Shared/bin/Debug/net6.0
 /Pe2Api.Shared/obj
 /Ps2Api.Domain/obj
+/Pe2Api.Api/bin/Debug/net6.0
+/Pe2Api.Api/obj
+/Pe2Api.Infra/bin/Debug/net6.0
+/Pe2Api.Infra/obj
+/Pe2Api.Tests/bin
+/Pe2Api.Tests/obj

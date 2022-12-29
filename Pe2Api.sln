@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pe2Api.Api", "Pe2.Api\Pe2Api.Api.csproj", "{5A6FD672-B01A-4672-BAD9-A5A91DD38EBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pe2Api.Api", "Pe2Api.Api\Pe2Api.Api.csproj", "{5A6FD672-B01A-4672-BAD9-A5A91DD38EBC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pe2Api.Infra", "Pe2.Infra\Pe2Api.Infra.csproj", "{4CE65865-04A8-4732-9C54-9B5EB6BB2650}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pe2Api.Infra", "Pe2Api.Infra\Pe2Api.Infra.csproj", "{4CE65865-04A8-4732-9C54-9B5EB6BB2650}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pe2Api.Tests", "Pe2.Tests\Pe2Api.Tests.csproj", "{3008ED76-0061-443D-BDB9-9F2F1DE2D8FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pe2Api.Tests", "Pe2Api.Tests\Pe2Api.Tests.csproj", "{3008ED76-0061-443D-BDB9-9F2F1DE2D8FE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pe2Api.Shared", "Pe2Api.Shared\Pe2Api.Shared.csproj", "{8EF6AFD1-2DA3-4773-82CA-A0EBD6C7BB90}"
 EndProject
