@@ -10,12 +10,8 @@ namespace Pe2Api.Infra.Repositories
 {
     public class ParasiteEnergyReadRepository : BaseReadRepository<ParasiteEnergy>, IParasiteEnergyReadRepository
     {
-        private readonly IMongoCollection<ParasiteEnergy> _collection;
         public ParasiteEnergyReadRepository(IMongoSettings settings) : base(settings)
-        {
-            var database = new MongoClient(settings.ConnectionString).GetDatabase(settings.DatabaseName);           
-
-            _collection = database.GetCollection<ParasiteEnergy>("ParasiteEnergy");
+        {           
         }
 
         public async Task<PaginationResponse<ParasiteEnergy>> FindAllAsync(int page, int quantityPerPage)

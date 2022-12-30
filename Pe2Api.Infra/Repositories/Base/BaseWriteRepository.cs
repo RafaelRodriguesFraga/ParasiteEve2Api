@@ -16,8 +16,6 @@ namespace Pe2Api.Infra.Repositories.Base
 
             _collection = database.GetCollection<TEntity>(typeof(TEntity).Name);
         }
-
-
         public void InsertOne(TEntity entity)
         {
             _collection.InsertOne(entity);

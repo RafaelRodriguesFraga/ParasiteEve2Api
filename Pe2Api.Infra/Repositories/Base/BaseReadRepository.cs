@@ -9,7 +9,7 @@ namespace Pe2Api.Infra.Repositories.Base
 {
     public class BaseReadRepository<TEntity> : IBaseReadRepository<TEntity> where TEntity : class, IBaseEntity
     {
-        private readonly IMongoCollection<TEntity> _collection;
+        protected readonly IMongoCollection<TEntity> _collection;
         public BaseReadRepository(IMongoSettings settings)
         {
             var database = new MongoClient(settings.ConnectionString).GetDatabase(settings.DatabaseName);

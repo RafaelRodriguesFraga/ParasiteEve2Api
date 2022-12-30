@@ -12,9 +12,7 @@ namespace Pe2Api.Infra.Repositories
         private readonly IMongoCollection<Weapon> _collection;
         public WeaponReadRepository(IMongoSettings settings) : base(settings)
         {
-            var database = new MongoClient(settings.ConnectionString).GetDatabase(settings.DatabaseName);
 
-            _collection = database.GetCollection<Weapon>("Weapon");
         }
 
         public async Task<PaginationResponse<Weapon>> FindAllAsync(int page, int quantityPerPage)
