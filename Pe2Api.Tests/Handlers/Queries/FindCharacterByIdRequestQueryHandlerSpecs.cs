@@ -1,11 +1,12 @@
-﻿using Moq;
+﻿using MongoDB.Bson;
+using Moq;
 using Pe2Api.Domain.Entities;
 using Pe2Api.Domain.Handlers.Queries;
 using Pe2Api.Domain.Notifications;
 using Pe2Api.Domain.Queries.Request;
 using Pe2Api.Domain.Repositories;
 
-namespace Pe2.Tests.Handlers.Queries
+namespace Pe2Api.Tests.Handlers.Queries
 {
     public class FindCharacterByIdRequestQueryHandlerSpecs
     {

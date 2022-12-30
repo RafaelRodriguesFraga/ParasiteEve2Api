@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Pe2.Infra\Pe2Api.Infra.csproj" />
+    <ProjectReference Include="..\Pe2Api.Infra\Pe2Api.Infra.csproj" />
   </ItemGroup>
 
 </Project>

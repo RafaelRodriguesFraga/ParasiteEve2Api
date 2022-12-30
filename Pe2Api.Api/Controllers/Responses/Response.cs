@@ -2,7 +2,7 @@
 using Pe2Api.Domain.Commands.Base;
 using Pe2Api.Domain.Pagination;
 
-namespace Pe2.Api.Controllers.Responses
+namespace Pe2Api.Api.Controllers.Responses
 {
     public class Response
     {

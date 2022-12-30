@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Pe2.Api.Controllers.Responses;
+using Pe2Api.Api.Controllers.Responses;
 using Pe2Api.Domain.Commands.Base;
 using Pe2Api.Domain.Pagination;
 
-namespace Pe2.Api.Controllers.Base
+namespace Pe2Api.Api.Controllers.Base
 {
     [ApiController]
     public abstract class ApiControllerBase : ControllerBase

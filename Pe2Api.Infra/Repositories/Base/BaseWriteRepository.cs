@@ -1,10 +1,11 @@
 ﻿using System.Linq.Expressions;
+using MongoDB.Bson;
 using MongoDB.Driver;
 using Pe2Api.Domain.Entities.Base;
 using Pe2Api.Domain.Repositories.Base;
-using Pe2.Infra.DbSettings;
+using Pe2Api.Infra.DbSettings;
 
-namespace Pe2.Infra.Repositories.Base
+namespace Pe2Api.Infra.Repositories.Base
 {
     public class BaseWriteRepository<TEntity> : IBaseWriteRepository<TEntity> where TEntity : IBaseEntity
     {

@@ -6,7 +6,7 @@ using Pe2Api.Domain.Handlers.Commands;
 using Pe2Api.Domain.Notifications;
 using Pe2Api.Domain.Repositories;
 
-namespace Pe2.Tests.Handlers.Commands
+namespace Pe2Api.Tests.Handlers.Commands
 {
     public class CreateArmorRequestCommandHandlerSpecs
     {

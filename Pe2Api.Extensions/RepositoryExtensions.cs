@@ -1,9 +1,8 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using Pe2Api.Infra.Repositories;
 using Pe2Api.Domain.Repositories;
 using Pe2Api.Domain.Repositories.Base;
-using Pe2.Infra.Repositories;
-using Pe2.Infra.Repositories.Base;
-using Pe2Api.Infra.Repositories;
+using Pe2Api.Infra.Repositories.Base;
 
 namespace Pe2Api.Extensions
 {

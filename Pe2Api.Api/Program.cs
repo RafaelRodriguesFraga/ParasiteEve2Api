@@ -1,4 +1,4 @@
-using Pe2.Api;
+using Pe2Api.Api;
 
 var builder = WebApplication.CreateBuilder(args);
 

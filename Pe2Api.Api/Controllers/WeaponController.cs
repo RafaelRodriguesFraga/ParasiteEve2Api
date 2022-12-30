@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Pe2.Api.Controllers.Base;
-using Pe2.Api.Controllers.Responses;
+using Pe2Api.Api.Controllers.Base;
+using Pe2Api.Api.Controllers.Responses;
 using Pe2Api.Domain.Handlers.Commands;
 using Pe2Api.Domain.Queries.Request;
 

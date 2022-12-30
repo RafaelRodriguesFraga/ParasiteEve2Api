@@ -1,11 +1,11 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Pe2Api.Domain.Commands.Request;
-using Pe2.Api.Controllers.Base;
-using Pe2.Api.Controllers.Responses;
+using Pe2Api.Api.Controllers.Base;
+using Pe2Api.Api.Controllers.Responses;
 using Pe2Api.Domain.Queries.Request;
 
-namespace Pe2.Api.Controllers
+namespace Pe2Api.Api.Controllers
 {
     [ApiController]
     [Route("api/characters")]

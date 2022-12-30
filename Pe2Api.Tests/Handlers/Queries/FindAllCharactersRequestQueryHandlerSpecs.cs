@@ -5,7 +5,7 @@ using Pe2Api.Domain.Repositories;
 using Pe2Api.Domain.Handlers.Queries;
 using Pe2Api.Domain.Queries.Request;
 
-namespace Pe2.Tests.Handlers.Queries
+namespace Pe2Api.Tests.Handlers.Queries
 {
     public class FindAllCharactersRequestQueryHandlerSpecs
     {

@@ -6,7 +6,7 @@ using Pe2Api.Domain.Handlers.Commands;
 using Pe2Api.Domain.Repositories;
 using Pe2Api.Domain.Notifications;
 
-namespace Pe2.Tests.Handlers.Command
+namespace Pe2Api.Tests.Handlers.Command
 {
     public class CreateCharacterRequestCommandHandlerSpecs
     {

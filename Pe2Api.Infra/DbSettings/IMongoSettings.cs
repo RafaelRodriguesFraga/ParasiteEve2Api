@@ -1,4 +1,4 @@
-namespace Pe2.Infra.DbSettings
+namespace Pe2Api.Infra.DbSettings
 {
     public interface IMongoSettings
     {

@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
-using Pe2.Infra.DbSettings;
+using Pe2Api.Infra.DbSettings;
 
 namespace Pe2Api.Extensions
 {

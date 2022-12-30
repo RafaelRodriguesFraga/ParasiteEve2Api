@@ -1,9 +1,9 @@
 ﻿using Pe2Api.Extensions;
 using Pe2Api.Domain.Notifications;
-using Pe2.Api.Controllers.Responses;
+using Pe2Api.Api.Controllers.Responses;
 using Pe2Api.Domain.Pagination;
 
-namespace Pe2.Api
+namespace Pe2Api.Api
 {
     public class Startup
     {
