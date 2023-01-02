@@ -2,6 +2,7 @@
 using Pe2Api.Domain.Notifications;
 using Pe2Api.Api.Controllers.Responses;
 using Pe2Api.Domain.Pagination;
+using System.Reflection;
 
 namespace Pe2Api.Api
 {
@@ -15,7 +16,13 @@ namespace Pe2Api.Api
 
         public void ConfigureServices(IServiceCollection services)
         {            
-            services.AddSwaggerGen();
+            services.AddSwaggerGen(x =>
+            {
+                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+
+                x.IncludeXmlComments(xmlPath);
+            });
             var allowedOrigins = Configuration.GetSection("AllowedOrigins").Value;
             services.AddCors(options =>
             {

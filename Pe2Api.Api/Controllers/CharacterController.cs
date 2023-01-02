@@ -19,6 +19,11 @@ namespace Pe2Api.Api.Controllers
             _mediator = mediator;
         }
 
+        /// <summary>
+        /// Insert a character in the database
+        /// </summary>
+        /// <param name="command"></param>
+        /// <returns></returns>
         [HttpPost]
         public async Task<IActionResult> InsertAsync(CreateCharacterRequestCommand command)
         {
