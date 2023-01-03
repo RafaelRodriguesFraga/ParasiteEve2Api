@@ -23,7 +23,9 @@ namespace Pe2Api.Api.Controllers
         /// Insert a character in the database
         /// </summary>
         /// <param name="command"></param>
-        /// <returns></returns>
+        /// <returns>Returns a valid character</returns>
+        /// <response code="201">Returns Created if a character is succefully inserted</response>
+        /// <response code="400">Returns BadRequest if there's any validation errors</response>
         [HttpPost]
         public async Task<IActionResult> InsertAsync(CreateCharacterRequestCommand command)
         {
@@ -32,6 +34,12 @@ namespace Pe2Api.Api.Controllers
             return ResponseCreated(result);
         }
 
+        /// <summary>
+        /// Get all characters from the database
+        /// </summary>
+        /// <returns>Returns all characters</returns>
+        /// <response code="200">Returns Success</response>
+        /// <response code="400">Returns BadRequest if there's any errors</response>
         [HttpGet]
         public async Task<IActionResult> FindAllAsync()
         {
@@ -40,6 +48,13 @@ namespace Pe2Api.Api.Controllers
             return ResponseOk(result);
         }
 
+        /// <summary>
+        /// Get a character by id from the database
+        /// </summary>
+        /// <param name="query"></param>
+        /// <returns>Returns a valid character</returns>
+        /// <response code="200">Returns Success</response>
+        /// <response code="400">Returns BadRequest if the character is not found</response> 
         [HttpGet("{id}")]
         public async Task<IActionResult> FindByIdAsync([FromRoute]FindCharacterByIdRequestQuery query)
         {
