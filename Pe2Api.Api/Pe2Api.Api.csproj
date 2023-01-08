@@ -23,7 +23,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Pe2.Infra\Pe2Api.Infra.csproj" />
     <ProjectReference Include="..\Pe2Api.Extensions\Pe2Api.Extensions.csproj" />
   </ItemGroup>
 
